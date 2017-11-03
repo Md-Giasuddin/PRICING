@@ -1,0 +1,138 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+     color: #333;
+}
+body {
+color: #6f706f;
+}
+a:hover { text-decoration: none }
+
+.section-title{
+    padding: 40px 0;
+}
+
+.section-title h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.section-title h3 span{
+    color: #26a65b;
+}
+
+.section-title p{
+    font-size: 16px
+}
+
+.pricing-box{
+    border: 2px solid #ddd;
+    padding: 40px 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.pricing-box h2{
+    font-size: 20px;
+    color: #444544;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing-img{
+    padding: 15px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pricing-li{
+    list-style-type: none;
+}
+.pricing-li li:before{
+    font-family: fontAwesome;
+    content: "\f00c";
+    padding-right: 10px;
+    color: #26a65b;
+        
+}
+.pricing-li li.off:before{
+    content: "\f00d";
+    font-family: fontAwesome;
+    color: red;
+}
+.pricing-li li{
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 25px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.pricing-lists ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.pricing-lists ul{
+    margin-bottom: 20px;
+}
+
+.pricing-box h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.pricing-btn {
+    text-align: center;
+}
+.pricing-btn a{
+    border: 2px solid #26a65b;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #545454;
+    margin-top: 20px;
+    font-size: 16px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.pricing-btn a:hover{
+    border-color: #545454;
+    background: #333;
+    color: #fff;
+}
+
+.pricing-box:hover{
+    border-color: #26a65b;
+    box-shadow: 0 0 10px #333;
+}
+
+.pricing-lists ul li:hover{
+    padding-left: 7px;
+}
+
+.pad{
+    margin-left: 15px;
+}
